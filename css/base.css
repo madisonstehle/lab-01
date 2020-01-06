@@ -1,0 +1,31 @@
+/* COLORS: primary = #D1D2F9 | secondary = #A3BCF9 */
+
+* {
+    text-align: center;
+}
+
+body, html {
+    width: 100%;
+}
+
+header, main, footer {
+    background-color: #d1d2f9;
+    margin: auto;
+    width: 100%;
+}
+
+header, div, footer {
+    outline: 1px black solid;
+}
+
+@media(min-width: 768px){
+    body {
+        max-width: 960px;
+        margin: auto;
+    }
+
+    header, main, footer {
+        background-color: #A3BCF9;
+    }
+
+}

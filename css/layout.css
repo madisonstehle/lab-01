@@ -1,0 +1,54 @@
+body {
+    min-width: 480px;
+}
+
+header {
+    height: 75px;
+    float: left;
+}
+
+#b {
+    background-color: #d1d2f9;
+    height: 150px;
+    width: 100%;
+    float: left;
+}
+
+#boxCD {
+    background-color: #d1d2f9;
+    width: 100%;
+    float: left;
+}
+
+#boxCD div {
+    height: 125px;
+}
+
+#boxEFGH div {
+    background-color: #d1d2f9;
+    height: 250px;
+    width: 50%;
+    min-width: 240px;
+    float: left;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    #b {
+        background-color: #A3BCF9;
+    }
+
+    #boxCD div {
+        background-color: #A3BCF9;
+    }
+
+    #boxEFGH div {
+        background-color: #A3BCF9;
+    }
+}
